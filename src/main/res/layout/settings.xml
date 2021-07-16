@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentPane"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgg"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    tools:context=".SettingsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/navSett"
+        android:elevation="6dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:contentInsetStartWithNavigation="0dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/blkk"
+                android:drawableStart="@drawable/vec_font_size"
+                android:drawablePadding="24dp"
+                android:fontFamily="@string/settings_font_family"
+                android:foreground="@drawable/sheet_ripple"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:paddingStart="20dp"
+                android:text="@string/fontSizeText"
+                android:textAllCaps="false"
+                android:textColor="@color/text"
+                android:textSize="@dimen/settings_font_size"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/btn_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/blkk"
+                android:drawableStart="@drawable/vec_font_family"
+                android:drawablePadding="24dp"
+                android:fontFamily="@string/settings_font_family"
+                android:foreground="@drawable/sheet_ripple"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:paddingStart="20dp"
+                android:text="@string/FontFamilyText"
+                android:textAllCaps="false"
+                android:textColor="@color/text"
+                android:textSize="@dimen/settings_font_size" />
+
+            <Button
+                android:id="@+id/btn_dim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/blkk"
+                android:drawableStart="@drawable/vec_font_dim"
+                android:drawablePadding="24dp"
+                android:fontFamily="@string/settings_font_family"
+                android:foreground="@drawable/sheet_ripple"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:paddingStart="20dp"
+                android:text="@string/textDimmerText"
+                android:textAllCaps="false"
+                android:textColor="@color/text"
+                android:textSize="@dimen/settings_font_size" />
+
+            <Button
+                android:id="@+id/btn_align"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/blkk"
+                android:drawableStart="@drawable/vec_align_left_ico"
+                android:drawablePadding="24dp"
+                android:fontFamily="@string/settings_font_family"
+                android:foreground="@drawable/sheet_ripple"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:paddingStart="20dp"
+                android:text="@string/alignText"
+                android:textAllCaps="false"
+                android:textColor="@color/text"
+                android:textSize="@dimen/settings_font_size" />
+
+            <Button
+                android:id="@+id/btn_hide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/blkk"
+                android:drawableStart="@drawable/vec_shake"
+                android:drawablePadding="24dp"
+                android:fontFamily="@string/settings_font_family"
+                android:foreground="@drawable/sheet_ripple"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:paddingStart="20dp"
+                android:text="@string/shakeToHideText"
+                android:textAllCaps="false"
+                android:textColor="@color/text"
+                android:textSize="@dimen/settings_font_size" />
+
+            <Button
+                android:id="@+id/btn_rotation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/blkk"
+                android:drawableStart="@drawable/vec_rotation"
+                android:drawablePadding="24dp"
+                android:fontFamily="@string/settings_font_family"
+                android:foreground="@drawable/sheet_ripple"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:paddingStart="20dp"
+                android:text="@string/screenRotationText"
+                android:textAllCaps="false"
+                android:textColor="@color/text"
+                android:textSize="@dimen/settings_font_size" />
+
+            <Button
+                android:id="@+id/btn_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/blkk"
+                android:drawableStart="@drawable/vec_purchase"
+                android:drawablePadding="24dp"
+                android:fontFamily="@string/settings_font_family"
+                android:foreground="@drawable/sheet_ripple"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:paddingStart="16dp"
+                android:text="@string/contactText"
+                android:textAllCaps="false"
+                android:textColor="@color/text"
+                android:textSize="@dimen/settings_font_size" />
+
+            <Button
+                android:id="@+id/btn_tutorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/blkk"
+                android:drawableStart="@drawable/vec_info"
+                android:drawablePadding="20dp"
+                android:fontFamily="@string/settings_font_family"
+                android:foreground="@drawable/sheet_ripple"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:text="@string/tutorialText"
+                android:textAllCaps="false"
+                android:textColor="@color/text"
+                android:textSize="@dimen/settings_font_size" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <ImageView
+                android:id="@+id/versionImg"
+                android:layout_width="match_parent"
+                android:layout_height="13dp"
+                app:srcCompat="@drawable/vec_version" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

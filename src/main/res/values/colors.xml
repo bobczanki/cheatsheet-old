@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#455343</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#449C63</color>
+    <color name="black_overlay">#FFFFFF</color>
+    <color name="rippleBright">#9C9C9C</color>
+    <color name="rippleDark">#3d3d3d</color>
+    <color name="text">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="black">#C8C8C8</color>
+    <color name="blackk">#000000</color>
+    <color name="bgg">#212121</color>
+    <color name="blkk">#141414</color>
+    <color name="splashBg">#1c1c1c</color>
+    <color name="mainBg">#121212</color>
+    <color name="blekk">#000000</color>
+    <color name="videoBg">#242424</color>
+    <color name="navSett">#3a3a3a</color>
+    <color name="titleAccent">#517188</color>
+    <color name="scroll">#B5FFFFFF</color>
+    <color name="popupBg">#232323</color>
+    <color name="scrollbar">#5AA875</color>
+    <color name="textLine">#226B3C</color>
+    <color name="transparent">#00000000</color>
+</resources>

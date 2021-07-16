@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/textLine"
+        android:imeOptions="actionDone"
+        android:inputType="textPersonName"
+        android:minWidth="60dp"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:textColorLink="#919191"
+        android:textCursorDrawable="@null"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTitle"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="@color/textLine"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine"
+        android:minHeight="130dp"
+        android:textColor="@color/text"
+        android:textCursorDrawable="@null"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/editImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTitle"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:foreground="@drawable/sheet_ripple" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/moveButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/remove"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/remove"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="@color/imagepicker_white"
+        app:fabCustomSize="35dp"
+        app:rippleColor="@color/colorPrimary"
+        app:srcCompat="@drawable/vec_swap" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/remove"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="9dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="@color/imagepicker_white"
+        app:fabCustomSize="35dp"
+        app:rippleColor="@color/colorPrimary"
+        app:srcCompat="@drawable/vec_delete" />
+
+    <RelativeLayout
+        android:id="@+id/addGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:clipToPadding="false">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/textButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:elevation="12dp"
+            app:backgroundTint="@color/colorAccent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vec_menu_text" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            app:backgroundTint="@color/colorAccent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vec_menu_photo" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            app:backgroundTint="@color/imagepicker_white"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vec_menu_add" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

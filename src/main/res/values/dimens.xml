@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="row_padding_horizontal">13dp</dimen>
+    <dimen name="recyclers_padding">6dp</dimen>
+    <dimen name="sheet_width">87dp</dimen>
+    <dimen name="edit_height">200dp</dimen>
+    <dimen name="settings_font_size">18sp</dimen>
+</resources>

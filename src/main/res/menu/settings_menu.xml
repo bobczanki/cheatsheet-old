@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/policyItem"
+        app:showAsAction="never"
+        android:title="@string/policyText" />
+
+    <item
+        android:id="@+id/restoreItem"
+        app:showAsAction="never"
+        android:title="@string/restoreText" />
+
+</menu>

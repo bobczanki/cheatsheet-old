@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">CheatSheet</string>
+
+    <string name="settings_font_family" translatable="false">sans-serif</string>
+
+    <!-- Preferences -->
+    <string name="preferences" translatable="false">CheatSheetPreferences</string>
+    <string name="runPreference" translatable="false">isFirstRun</string>
+    <string name="sheetPreference" translatable="false">sheet</string>
+    <string name="linesPreference" translatable="false">lines</string>
+    <integer name="defaultLines">6</integer>
+    <string name="fontSize" translatable="false">fontSize</string>
+    <integer name="defaultFontSize">14</integer>
+    <string name="fontFamily" translatable="false">fontFamily</string>
+    <integer name="defaultFontFamily">6</integer>
+    <string name="fontAlpha" translatable="false">fontAlpha</string>
+    <string name="shakeOn" translatable="false">shakeOn</string>
+    <string name="rotationOn" translatable="false">rotationOn</string>
+    <string name="textAlignment" translatable="false">textAlignment</string>
+    <string name="shakeThreshold" translatable="false">shakeThreshold</string>
+
+    <string name="sheetMessage" translatable="false">sheetMessage</string>
+
+    <!-- First run -->
+    <string name="exampleContent">" • This is an example cheat-sheet.\n • It can contain text or an image.\n • Check out the tutorial in settings to get the most of the app!\n • You can exit this screen by holding the left bottom half of the screen.\n \n \n \n • Happy cheating!"</string>
+
+    <string name="title_activity_edit" translatable="false">EditActivity</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="fontSizeText">Font size</string>
+    <string name="FontFamilyText">Font family</string>
+    <string name="textDimmerText">Text dim</string>
+    <string name="shakeToHideText">Shake to hide</string>
+    <string name="screenRotationText">Screen rotation</string>
+    <string name="aboutText">About</string>
+    <string name="isShakingText">SHAKING</string>
+    <string name="isntShakingText">NOT SHAKING</string>
+    <string name="explainShakeText">Hide the cheat sheet screen\nwhen you shake your phone\n(Details in the tutorial)</string>
+    <string name="explainRotationText">Allow cheat screen rotation\n(experimental)</string>
+    <string name="shakeThresholdText">Shake power:</string>
+    <string name="saveText">SAVE</string>
+    <string name="languagePangram">The quick brown fox jumps over the lazy dog</string>
+    <string name="exampleTitle">Example</string>
+    <string name="rateText">Rate us</string>
+    <string name="tutorialText">Tutorial</string>
+    <string name="toastSaveText">Auto Save enabled</string>
+    <string name="addTooltip">Add a cheat sheet to start editing</string>
+    <string name="policyText">Privacy policy</string>
+    <string name="alignText">Text alignment</string>
+    <string name="textEdit">Text</string>
+    <string name="imageEdit">Image</string>
+    <string name="importEdit">Import text</string>
+    <string name="importText">Import</string>
+    <string name="importDescription">Import cheat sheet text \ndivide each one with a semicolon \';\'</string>
+    <string name="purchaseText">Purchase full version</string>
+    <string name="demoText">Demo version</string>
+    <string name="demoDesc">This version allows up \nto 3 cheat-sheets at once.\nPurchase the full version to \nmake it unlimited and\nsupport the app development.</string>
+    <string name="proceedText">Proceed</string>
+    <string name="setpurchaseText">Unlock unlimited cheat-sheets and\nhelp me grow the app. More to \ncome soon, don\'t miss out!</string>
+    <string name="finalizedText">Purchase finalized successfully!</string>
+    <string name="notfinalizedText">Purchase not finalized</string>
+    <string name="restoreText">Restore purchases</string>
+    <string name="restorepopText">Purchases restored.\nIf you have any questions\nregarding your purchase\ncontact us at:\nreversedev.contact@gmail.com</string>
+    <string name="okText" translatable="false">OK</string>
+    <string name="turorialContent">Usage:\n • Create your cheat sheet by clicking the pen button on the main screen.\n • Open your cheat sheet from the main screen.\n • Put your phone in your pocket and start cheating.\n • Read below on how to navigate through cheat sheets ↓\n \nBasics:\n • Bottom left corner touch: Scroll \n the text/image upwards.\n • Bottom right corner touch: Scroll \n the text/image downwards.\n • Bottom left corner touch and hold: Exit \n the cheating screen.\n • Bottom right corner touch and hold: Open \n mini topic changer.\n • Resize button: \n Set the number of visible lines on screen.\n \nAdvanced:\n • Shake to hide: Hide the cheating screen on phone shake. Touch and hold the screen to cancel. (setting is off by default in settings)\n • Additional protection: If you lock the phone while the cheating screen is hidden the app is closed.\n \nSettings:\n • Font size: Change the font size that appears on the cheating screen.\n • Font family: Change the font family that appears on the cheating screen.\n • Text dim: Make the text more/less visible.\n • Shake to hide: (see advanced section ↑)\n • Screen rotation: Experimental setting if you would like to try something out in landscape.\n \nEditor:\n • Click on an image if you want to crop it.</string>
+    <string name="tpSettings">Settings</string>
+    <string name="tpExample">Example cheat sheet</string>
+    <string name="tpEdit">Edit cheat sheet</string>
+    <string name="contactText">CheatSheet 2</string>
+    <string name="downloadText">Download</string>
+    <string name="proText">This app was replaced by a new version. Would you like to download it now?</string>
+    <string name="proNameText">Cheat Sheet Pro</string>
+
+</resources>
